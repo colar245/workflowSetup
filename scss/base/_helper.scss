@@ -1,0 +1,85 @@
+/* HELPERS */
+.a-c {
+  text-align: center;
+}
+.a-l {
+  text-align: left;
+}
+.a-r {
+  text-align: right;
+}
+.light-bg {
+	color: $dark;
+	background-color: $light;
+}
+.dark-bg {
+	color: $light;
+	background-color: $dark;
+}
+.primary-bg {
+	color: $light;
+	background-color: $primary;
+}
+.light {
+	color: $light;
+}
+.dark {
+	color: $dark;
+}
+.primary {
+	color: $primary;
+}
+hr.light50 {
+ border-top:1px solid $light;
+ width:50%;
+ margin-top:.8rem;
+ margin-bottom:1rem
+}
+hr.light75 {
+ border-top:1px solid $light;
+ width:75%;
+ margin-top:.8rem;
+ margin-bottom:1rem
+}
+hr.light {
+ border-top:1px solid $light;
+ width:100%;
+ margin-top:.8rem;
+ margin-bottom:1rem
+}
+hr.dark50 {
+ border-top:1px solid $dark;
+ width:50%;
+ margin-top:.8rem;
+ margin-bottom:1rem
+}
+hr.dark75 {
+ border-top:1px solid $dark;
+ width:75%;
+ margin-top:.8rem;
+ margin-bottom:1rem
+}
+hr.dark {
+ border-top:1px solid $dark;
+ width:100%;
+ margin-top:.8rem;
+ margin-bottom:1rem
+}
+hr.primary50 {
+ border-top:1px solid $primary;
+ width:50%;
+ margin-top:.8rem;
+ margin-bottom:1rem
+}
+hr.primary75 {
+ border-top:1px solid $primary;
+ width:75%;
+ margin-top:.8rem;
+ margin-bottom:1rem
+}
+hr.primary {
+ border-top:1px solid $primary;
+ width:100%;
+ margin-top:.8rem;
+ margin-bottom:1rem
+}

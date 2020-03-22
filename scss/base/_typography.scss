@@ -1,0 +1,68 @@
+/* Type */
+
+body, input, select, textarea {
+	font-size: 15pt;
+	line-height: 1.65;
+	background: $dark;
+	color: $light;
+}
+
+strong, b {
+}
+
+em, i {
+	font-style: italic;
+}
+
+p {
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.5;
+	text-transform: uppercase;
+
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.75em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+
+h5 {
+	font-size: 1.1em;
+}
+
+h6 {
+	font-size: 1em;
+}
+
+sub {
+	font-size: 0.8em;
+	position: relative;
+	top: 0.5em;
+}
+
+sup {
+	font-size: 0.8em;
+	position: relative;
+	top: -0.5em;
+}
+
+hr {
+	border: 0;
+}

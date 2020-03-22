@@ -1,6 +1,23 @@
-$bg-color: #171619;
+@import 'libs/vars';
+@import 'base/reset';
+@import 'base/helper';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'base/typography';
+@import 'libs/icons';
 
-body {
-	background: $bg-color;
-	color: #fff;
-}
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px - 36em) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px - 48em) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px - 62em) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px - 75em) { ... }
+*/
